@@ -7,8 +7,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', `https://${process.env.AWS_BUCKET}.s3.${process.env.REGION}.amazonaws.com`],
-          'media-src': ["'self'", 'data:', 'blob:', `https://${process.env.AWS_BUCKET}.s3.${process.env.REGION}.amazonaws.com`],
+          'img-src': ["'self'", 'data:', 'blob:', `https://${process.env.AWS_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com`],
+          'media-src': ["'self'", 'data:', 'blob:', `https://${process.env.AWS_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com`],
           upgradeInsecureRequests: null,
         },
       },
