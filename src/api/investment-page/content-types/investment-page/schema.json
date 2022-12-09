@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investment_pages",
+  "info": {
+    "singularName": "investment-page",
+    "pluralName": "investment-pages",
+    "displayName": "InvestmentPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "investmentHeader": {
+      "type": "string"
+    }
+  }
+}
